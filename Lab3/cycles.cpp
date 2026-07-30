@@ -17,7 +17,7 @@ void dfs(int node, int parent)
             dfs(next, node);
         }
         else if(next != parent)
-        {
+        {   
             hasCycle = true;
         }
     }
